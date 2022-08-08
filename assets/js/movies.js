@@ -52,7 +52,7 @@ export const appInit = (url) => {
   createStyle();
   createMarkup();
 
-  siteUrl = url || 'http://www.omdbapi.com/';
+  siteUrl = url || 'https://www.omdbapi.com/';
 
   inputSearch.addEventListener('keyup', inputSearchHandler);
 }
